@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract ItemManager",
+						"name": "_parentContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_priceInWei",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "index",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paidWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "priceInWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Item.sol": "Item"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Item.sol": {
+			"keccak256": "0x3d0059e67cd9cfc2866d650b7f4e15349c790794cca32b91281a954e9c804230",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0f9637d5a6e0821e3a7e7fc87d49f2064a28a72900458619241943b494c5454",
+				"dweb:/ipfs/QmQnHVuAGCGwvc8sepk78JugVyXAYu57Wj6TrLHKct7cpG"
+			]
+		},
+		"ItemManager.sol": {
+			"keccak256": "0x7d7df3544f3cd76162fe8a12c1c7d593871a99f68d20398165d46370651ed1a3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://715ad215872133282ff22e701b5064063b27248d40b1dcc013b0d2c174f6acb2",
+				"dweb:/ipfs/QmbTr1UgdeTg4pxztGomqEaUeyPwDGPKJgQaxyDGK5Brnt"
+			]
+		}
+	},
+	"version": 1
+}

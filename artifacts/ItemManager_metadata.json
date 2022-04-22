@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_identifier",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_priceInWei",
+						"type": "uint256"
+					}
+				],
+				"name": "createItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "triggerDelivery",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "triggerPayment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"isOwner()": {
+					"details": "Returns true if the caller is the current owner."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ItemManager.sol": "ItemManager"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Item.sol": {
+			"keccak256": "0x3d0059e67cd9cfc2866d650b7f4e15349c790794cca32b91281a954e9c804230",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0f9637d5a6e0821e3a7e7fc87d49f2064a28a72900458619241943b494c5454",
+				"dweb:/ipfs/QmQnHVuAGCGwvc8sepk78JugVyXAYu57Wj6TrLHKct7cpG"
+			]
+		},
+		"ItemManager.sol": {
+			"keccak256": "0x9a00d4dcf5eae2bcecb8f726b480dc5bdf207bf196f5a8ca71493777a310cf6e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6aee9b96615469b1e04187be3d20c5d99529c6191b8fed701ab3dcd2cd54037f",
+				"dweb:/ipfs/QmQ8jRjyAxf6rnohBdymyYLeugTEPL7dSsYZpxnaEaWdkf"
+			]
+		},
+		"Ownable.sol": {
+			"keccak256": "0x55a37ae93d71e545b35bc3a94f40f4d1cb7cf20a890ff1ba42c1a21e6b29d11f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f71a9d76e1540be04809a053dca806113509d05bbe274831abc7f2dda3ed687e",
+				"dweb:/ipfs/QmPwnvshJRkUGiprfXryZHQmqB1jnRd1Khj7zRUzupxYZp"
+			]
+		}
+	},
+	"version": 1
+}
